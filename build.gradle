@@ -22,7 +22,7 @@ node {
 
   // The npm command executed by the npmInstall task
   // By default it is install but it can be changed to ci
-  npmInstallCommand = "ci"
+  npmInstallCommand = "install"
 
   // The directory where Node.js is unpacked (when download is true)
   workDir = file("${project.projectDir}/.gradle/nodejs")
